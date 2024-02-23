@@ -154,3 +154,22 @@ body{
     font-size: 13px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 430px){
+    .main{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .balance{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .spending{
+        width: 90%;
+        margin: 0 auto;
+         height: 40vh;
+    }
+}
