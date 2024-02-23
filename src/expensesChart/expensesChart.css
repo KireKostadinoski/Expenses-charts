@@ -3,36 +3,36 @@
     src: url('../assets/DMSans_24pt-Regular.ttf');
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    height: 100vh; 
+body {
+    height: 100vh;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: MyFont;
-    background-color: hsl(27, 66%, 92%); 
+    background-color: hsl(27, 66%, 92%);
 }
 
-.main{
+.main {
     width: 100%;
 }
 
-.balance{
-  width: 100%;
-  height: 15vh;
-  padding: 25px;
-  border-radius: 15px;
-  background-color: hsl(10, 79%, 65%);
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.balance {
+    width: 100%;
+    height: 15vh;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: hsl(10, 79%, 65%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .balance p {
@@ -41,11 +41,11 @@ body{
 
 }
 
-.balance h2{
-  letter-spacing: 2px;
+.balance h2 {
+    letter-spacing: 2px;
 }
 
-.spending{
+.spending {
     margin-top: 20px;
     padding: 30px;
     height: 50vh;
@@ -53,7 +53,7 @@ body{
     background-color: white;
 }
 
-.charts{
+.charts {
     padding-bottom: 20px;
     height: 60%;
     margin-top: 20px;
@@ -70,7 +70,8 @@ body{
     background-color: hsl(25, 47%, 15%);
     margin-bottom: 5px;
     border-radius: 5px;
-    display: none; /* Initially hide the amount div */
+    display: none;
+    /* Initially hide the amount div */
     justify-content: center;
     align-items: center;
     color: white;
@@ -85,12 +86,13 @@ body{
 }
 
 .chart:hover .amount {
-    display: block; /* Show the amount div when hovering over the chart */
+    display: block;
+    /* Show the amount div when hovering over the chart */
 }
 
 /* Other styles remain unchanged */
 
-.chart{
+.chart {
     margin-right: 10px;
     display: flex;
     justify-content: center;
@@ -100,11 +102,11 @@ body{
 
 
 
-.show{
+.show {
     display: block;
 }
 
-.day-chart{
+.day-chart {
     width: 45px;
     height: 40px;
     border-radius: 5px;
@@ -116,60 +118,60 @@ body{
     font-size: 10px;
 }
 
-.day-chart:hover{
+.day-chart:hover {
     background-color: hsla(10, 79%, 65%, 0.725);
 }
 
-.current-day{
+.current-day {
     background-color: hsl(186, 34%, 60%);
 }
 
-.current-day:hover{
+.current-day:hover {
     background-color: hsl(186, 56%, 74%);
 
 }
 
-.month-total{
+.month-total {
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.month-amount p{
- font-size: 13px;
+.month-amount p {
+    font-size: 13px;
 }
 
-.month-amount h1{
+.month-amount h1 {
     letter-spacing: 1px;
     font-weight: 800;
 }
 
-.last-month h4{
+.last-month h4 {
     text-align: end;
     font-weight: bold;
 }
 
-.last-month p{
+.last-month p {
     font-size: 13px;
     font-weight: 500;
 }
 
-@media screen and (max-width: 430px){
-    .main{
+@media screen and (max-width: 430px) {
+    .main {
         width: 100%;
         margin: 0 auto;
     }
 
-    .balance{
+    .balance {
         width: 90%;
         margin: 0 auto;
         margin-bottom: 10px;
     }
 
-    .spending{
+    .spending {
         width: 90%;
         margin: 0 auto;
-         height: 40vh;
+        height: 40vh;
     }
 }
