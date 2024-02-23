@@ -178,6 +178,10 @@ body {
         height: 40vh;
     }
 
+    .spending h2{
+        font-size: 12px;
+    }
+
     .charts{
         width: 100%;
     }
