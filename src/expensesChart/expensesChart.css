@@ -171,11 +171,17 @@ body {
     .balance {
         width: 100%;
         margin-bottom: 10px;
+        height: 10vh;
+    }
+
+    .balance h2{
+        font-size: 16px;
     }
 
     .spending {
         width: 100%;
-        height: 40vh;
+        height: 36vh;
+        padding-bottom: 0;
     }
 
     .spending h2{
@@ -192,10 +198,15 @@ body {
         margin-right: 5px;
     }
 
+    .chart p {
+        font-size: 10px;
+    }
+
     .day-chart{
         width: 30px;
     }
 
+ 
     .month-amount h1{
         font-size: 14px;
     }
