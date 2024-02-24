@@ -197,7 +197,7 @@ body {
     .spending h2{
         font-size: 12px;
         text-align: left;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .charts{
@@ -218,19 +218,19 @@ body {
 
  
     .month-amount h1{
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .month-amount p{
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .last-month h4 {
-        font-size: 10px;
+        font-size: 12px;
     }
     
     .last-month p {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .day-chart p{
